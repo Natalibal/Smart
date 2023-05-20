@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMART INVEST</title>
+    <link rel="stylesheet" href="style.css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;400&family=Kaushan+Script&family=Kosugi&family=Quicksand:wght@600&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <section class="section1">
+            <header class="header">    
+                <!-- Widget  -->
+                <div class="tradingview-widget-container">
+                    <div class="tradingview-widget-container__widget"></div>
+                    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+                    {
+                    "symbols": [
+                    {
+                        "proName": "FOREXCOM:NSXUSD",
+                        "title": "US 100"
+                    },
+                    {
+                        "proName": "BITSTAMP:BTCUSD",
+                        "title": "BTC"
+                    },
+                    {
+                        "description": "NASDAQ",
+                        "proName": "NASDAQ:TSLA"
+                    },
+                    {
+                        "description": "NASDAQ",
+                        "proName": "NASDAQ:AAPL"
+                    },
+                    {
+                        "description": "CRYPTOCAP",
+                        "proName": "CRYPTO:BTCUSD"
+                    }
+                    ],
+                    "showSymbolLogo": true,
+                    "colorTheme": "light",
+                    "isTransparent": false,
+                    "displayMode": "adaptive",
+                    "locale": "in"
+                }
+                    </script>
+                </div> 
+                <div class="menu__icon">
+                    <span></span>
+                </div>
+                <div class="header__logo-button">
+                    <div class="header__logo">
+                        <img src="Image/SI.png" alt="logo">
+                    </div>
+                    <div class="header__button">
+                        <button onclick="myFunction()" class="btn">Start Trading</button>
+                    </div>
+        
+                </div>
+               
+                <div class="header__nav">
+                    <nav class="header__menu">
+                        <ul class="menu__list">
+                            <li>
+                                <a href="index.html" class="menu__link ">Main</a>
+                            </li>
+                            <li>
+                                <a href="about-company.html"  class="menu__link">About Us</a>
+                            </li>
+                            <li>
+                                <a href="terms.html"  class="menu__link ">Terms and Conditions</a>
+                            </li>
+                            <li>
+                                <a href="" class="menu__link link">Education&Tools</a>
+                                <span class="menu__arrow"></span>
+                                <ul class="sub-menu__list">
+                                    <li>
+                                        <a href="documentation/Getting-Started.pdf" target="_blank" class="sub-menu__link">Getting Started</a>
+                                    </li>
+                                    <li>
+                                        <a href="documentation/Economic-Indicators.pdf" target="_blank" class="sub-menu__link">Economic Indicators</a>
+                                    </li>
+                                    <li>
+                                        <a href="documentation/Fundamental-vs.-Technical-Analysis.pdf" target="_blank" class="sub-menu__link">Fundamental vs. Technical Analysis</a>
+                                    </li>
+                                    <li>
+                                        <a href="documentation/Influencing-Factors-on-U.S.-Dollar.pdf" target="_blank" class="sub-menu__link">Influencing Factors on U.S. Dollar</a>
+                                    </li>
+                                    <li>
+                                        <a href="documentation/TXT.pdf" target="_blank" class="sub-menu__link">Types of Trades & Orders</a>
+                                    </li>
+                                    <li>
+                                        <a href="documentation/Trading-on-Margin.pdf" target="_blank" class="sub-menu__link">Trading on Margin</a>
+                                    </li>
+                                    <li>
+                                        <a href="documentation/GLOSSARY-.pdf" target="_blank" class="sub-menu__link">GLOSSARY</a>
+                                    </li>
+                                </ul>
+
+                            </li>
+                            <li>
+                                <a href="partners.html"  class="menu__link" >Partners</a>
+                            </li>
+       
+                        </ul>
+                    </nav>
+                </div>
+        
+            </header>
+            <div class="hero-page">
+               <div class="hero-page__block1">
+                    <div class="hero-page__item1">
+                        <div class="hero-page__text">
+                            <p class="hero-page__p">Trade CFDs on your favourite</p>
+                            <h2 class="hero-page__title"> FOREX PAIRS</h2>
+                            <p> Buy or Sell CFDs on Forex pairs such as EUR/USD, GBP/USD, EUR/GBP, and more using our economic calendar to keep up to date on global events.</p>
+                            <div class="hero-page__button">
+                                <button onclick="myFunction()">Trade Forex</button>
+                            </div>
+                    </div>
+                            <div class="hero-page__img">
+                                <img src="Image/flag.png" alt="">
+                            </div>
+                    </div>
+                    <div class="hero-page__item2">
+                        <div class="hero-page__text">
+                            <p class="hero-page__p"> Trade CFDs on</p> 
+                            <h2 class="hero-page__title">POPULAR SHARES</h2>
+                            <p >Buy or Sell CFDs on Shares such as Apple, Amazon, Tesla, and other world-leading Stocks with our innovative trading platform. </p>
+                             <div class="hero-page__button">
+                                <button onclick="myFunction()">Trade Shares</button>
+                            </div>
+                    </div>
+                            <div class="hero-page__img">
+                                <img src="Image/schedule.png" alt="">
+                            </div>
+                    </div>
+                </div>
+                <div class="hero-page__block2">
+                    <div class="hero-page__item3">
+                        <div class="hero-page__text">
+                            <p class="hero-page__p">Trade CFDs on Indices from</p>
+                            <h2 class="hero-page__title"> AROUND THE GLOBE </h2>
+                            <p> Buy or Sell CFDs on Indices such S&P 500 (ES), NASDAQ 100 (NQ), FTSE 100 (UK100), and other popular indices using our free real-time quotes. </p>
+                            <div class="hero-page__button">
+                                <button onclick="myFunction()">Trade Indices</button>
+                            </div>
+                    </div>
+                            <div class="hero-page__img">
+                                <img src="Image/word.png" alt="">
+                            </div>
+                    </div>
+                    <div class="hero-page__item4">
+                        <div class="hero-page__text">
+                            <p class="hero-page__p">Trade CFDs on a variety of </p> 
+                            <h2 class="hero-page__title">COMMODITIES</h2>
+                            <p> Buy or Sell CFDs on Commodities such as Oil, Gold, Silver, and other commodities using our advanced technology.    </p>
+                        </p>
+                             <div class="hero-page__button hero-page__button4">
+                                <button onclick="myFunction()">Trade Commodities</button>
+                            </div>
+                    </div>
+                            <div class="hero-page__img">
+                                <img src="Image/ingots.png" alt="">
+                            </div>
+                    </div>
+                </div> 
+            </div>
+        </section>
+        <section class="section2">
+            <div class="traiding">
+                <h2 class="traiding__title">Simple Trading with Smart invest</h2>
+                <div class="traiding__item">
+                    <div class="traiding__item1">
+                        <img src="Image/svg1.jpg" alt="" class="traiding__img">
+                        <h4 class="traiding__item-title">Practice your strategy</h4>
+                        <p class="traiding__item-text"> Practice with different strategies. Try out our free demo account, before opening a live trading account, to explore our intuitive platform and improve your trading skills.
+                        </p>
+                    </div>
+                    <div class="traiding__item2">
+                        <img src="Image/svg2.jpg" alt="" class="traiding__img">
+                        <h4 class="traiding__item-title">Expand your knowledge</h4>
+                        <p class="traiding__item-text">Expand your knowledge. Learn about trading with Smart Invest by training with our top financial experts. 
+                        </p>
+                    </div>
+                    <div class="traiding__item3">
+                        <img src="Image/svg3.jpg" alt="" class="traiding__img">
+                        <h4 class="traiding__item-title">Manage your risk</h4>
+                        <p class="traiding__item-text">Manage your risks. Use our advanced risk management tools to limit your losses and lock in your profits.
+                        </p>
+                    </div>
+                </div>
+                <div class="traiding__button">
+                    <button onclick="myFunction()" class="traiding__btn">Start Trading</button>
+                </div>
+            </div>
+        </section>
+        <section class="section3">
+            <div class="schedule">
+                <div class="schedule__text">
+                     <p class="schedule__p">Discover thousands of popular financial instruments and get free real-time quotes to explore endless trading opportunities.</p>
+                </div>
+                <div class="schedule__img">
+                    <img src="Image/image_2023-05-08_11-26-38.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="section4">
+            <div class="payment">
+                <div class="payment__img">
+                    <img src="Image/Visa-removebg-preview.png" alt="Visa" class="payment__visa">
+                    <img src="Image/Mastercard-logo.svg-removebg-preview.png" alt="Mastercard" class="payment__mc">
+                    <img src="Image/PayPal-Logo-PNG-removebg-preview.png" alt="PayPal" class="payment__payPal">
+                    <img src="Image/2arrows-removebg-preview.png" alt="arrows" class="payment__arrows">
+                </div>
+                <p class="payment__text">*Smart Invest operates worldwide and provides with different payment methods. Choose a suitable option in order to transfer funds.</p>
+            </div>
+        </section>
+        <section class="section5">
+            <div class="footer">
+                <div class="footer__left">
+                        <a href="documentation/Compensations.pdf" target="_blank">Compensations</a> <br>
+                        <a href="documentation/About the company Smart Invest.pdf" target="_blank">About the company Smart Invest</a> <br>
+                        <a href="documentation/A letter from developers.pdf" target="_blank">A letter from developers</a> <br>
+                        <a href="documentation/Fees and Commissions.pdf" target="_blank">Fees and commissions</a> <br>
+                        <a href="documentation/RISK-DISCLOSURE-STATEMENT.pdf" target="_blank">Risk Disclosure Statement</a>  <br>
+                        <a href="documentation/Privacy Policy.pdf" target="_blank">Privacy policy </a><br>
+                        <a href="documentation/Anti-Money Laundering Policy.pdf" target="_blank">Anti-Money Laundering Policy </a>     
+                        <a href="documentation/Deposit and Withdrawal Policy.pdf" target="_blank">Deposit And Withdrawal Policy </a>  
+                        <p class="footer__adress">Adress <br>
+                            5 Harbor Exchange Square,<br>
+                             London E14 9GE, <br>
+                             United Kingdom</p>
+                </div>
+                <div class="footer__center">
+                    <p>Remember that CFDs are a leveraged product and can result in the loss of your entire capital. Trading CFDs may not be suitable for you. Please ensure you fully understand the risks involved.</p>
+                        <p>Smart Invest is mainly compensated for its services through the Bid/Ask spread. Check our Fees & Charges.</p>
+                        <p> Smart Invest is a trademark of Smart Invest Ltd </p>
+                </div>
+                <div class="footer__right">
+                    <img src="Image/GooglePlay-removebg-preview.png" alt="" class="footer__right-btn1" >
+                    <img src="Image/AppStore-removebg-preview.png" alt="" class="footer__right-btn2" >
+                    <p class="footer__right-txt">Phone number: <br>
+                        +44 7548123455 (WhatsApp) <br>
+                        +44 (0)20 7510 9801 <br>
+                        (Harbor Exchange Square)</p>
+                </div>
+            </div>
+            <p class="footer__p">SMART INVEST LTD</p>
+        </section>
+    </div>
+    </div>
+            <!-- jQuery-->
+			<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+			<!-- Slick -->
+			<script src="./script.js/slick.min.js"></script>
+			<!-- Script -->
+            <script src="./script.js/script.js"></script> 
+</body>
+</html>
